@@ -1,6 +1,9 @@
 import React from 'react'
 import Title from './Title';
-
+import tour1 from "../assets/images/tour-1.jpeg";
+import tour2 from "../assets/images/tour-2.jpeg";
+import tour3 from "../assets/images/tour-3.jpeg";
+import tour4 from "../assets/images/tour-4.jpeg";
 const Tours = () => {
   return (
     <section className="section" id="tours">
@@ -9,7 +12,7 @@ const Tours = () => {
         <article className="tour-card">
           <div className="tour-img-container">
             <img
-              src="./src/assets/images/tour-1.jpeg"
+              src={tour1}
               className="tour-img"
               alt=""
             />
@@ -40,7 +43,7 @@ const Tours = () => {
         <article className="tour-card">
           <div className="tour-img-container">
             <img
-              src="./src/assets/images/tour-2.jpeg"
+              src={tour2}
               className="tour-img"
               alt=""
             />
@@ -69,7 +72,7 @@ const Tours = () => {
         <article className="tour-card">
           <div className="tour-img-container">
             <img
-              src="./src/assets/images/tour-3.jpeg"
+              src={tour3}
               className="tour-img"
               alt=""
             />
@@ -98,7 +101,7 @@ const Tours = () => {
         <article className="tour-card">
           <div className="tour-img-container">
             <img
-              src="./src/assets/images/tour-4.jpeg"
+              src={tour4}
               className="tour-img"
               alt=""
             />
